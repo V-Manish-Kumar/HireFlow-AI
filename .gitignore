@@ -1,0 +1,38 @@
+# Compiled binaries & artifacts
+target/
+dist/
+build/
+*.class
+*.jar
+*.war
+
+# Node dependencies
+node_modules/
+.npm
+package-lock.json.backup
+
+# Environment & Secrets
+.env
+.env.local
+.env.production
+
+# IDE & OS
+.idea/
+*.iml
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+.DS_Store
+Thumbs.db
+
+# Storage / Uploads
+uploads/
+*.log
+
+# Maven wrapper and caches
+.m2/
+*.zip
+.vercel
+test_pg.bat
